@@ -1,6 +1,7 @@
 import logo from "./assets/logo.jpg";
 import styled from "styled-components";
 import { FaBandcamp, FaSpotify, FaYoutube } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa6";
 
 const Page = styled.div`
   max-width: 1200px;
@@ -147,6 +148,12 @@ export const App = () => {
               <LinkButton $color="#FF0000">
                 <FaYoutube />
                 <span>YouTube</span>
+              </LinkButton>
+            </a>
+            <a href="https://www.instagram.com/colorsbeneathshadows/">
+              <LinkButton $color="#FF0069">
+                <FaInstagram />
+                <span>Instagram</span>
               </LinkButton>
             </a>
           </FollowLinks>
